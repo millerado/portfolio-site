@@ -51,6 +51,10 @@ main h3 {
   border: 3px solid black;
 }
 
+.bio {
+  text-align: center;
+}
+
 .bio-box,
 .projects,
 .resume {
@@ -85,6 +89,25 @@ main h3 {
 .project-img {
   width: 25%;
   height: 25%;
+}
+
+.resume p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.icons {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.icons img {
+  width: 5rem;
+  height: 5rem;
+  margin: 10px 0;
 }
 
 footer {
