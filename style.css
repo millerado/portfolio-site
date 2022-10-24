@@ -16,6 +16,11 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -123,6 +128,11 @@ h3 {
   text-align: center;
   font-size: 1.5rem;
   margin: 10px;
+}
+
+.resume p a {
+  text-decoration: underline;
+  color: purple;
 }
 
 .icons {
